@@ -9,7 +9,7 @@ const authToken = process.env.authToken
 const freeclimb = freeclimbSDK(accountId, authToken)
 
 // Handles incoming requests on the /incomingCall endpoint
-app.post('/incomingCal', (req, res) => {
+app.post('/incomingCall', (req, res) => {
   // Create Say script to greet caller
   const hello = freeclimb.percl.say("Hello world!")
 
