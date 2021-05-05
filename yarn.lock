@@ -4,7 +4,16 @@
 
 "@freeclimb/sdk@../persephony/sdks/javascript-sdk/freeclimb-sdk-1.3.0.tgz":
   version "1.3.0"
-  resolved "../persephony/sdks/javascript-sdk/freeclimb-sdk-1.3.0.tgz#b884ac36d84a59a1bd54ec93b55c258868e155c1"
+  resolved "../persephony/sdks/javascript-sdk/freeclimb-sdk-1.3.0.tgz#ba58ef2ee7e1b1d0e287425518b86d71bed4389d"
+  dependencies:
+    lodash.assign "^4.2.0"
+    moment "^2.29.1"
+    node-fetch "^2.6.0"
+    qs "^6.10.1"
+
+"@freeclimb/sdk@../persephony/sdks/javascript-sdk/freeclimb-sdk-2.0.0.tgz":
+  version "2.0.0"
+  resolved "../persephony/sdks/javascript-sdk/freeclimb-sdk-2.0.0.tgz#e8475ef3d555067c54719c41ef2b2763056949fc"
   dependencies:
     lodash.assign "^4.2.0"
     moment "^2.29.1"

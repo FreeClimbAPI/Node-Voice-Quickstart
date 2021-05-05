@@ -1,7 +1,7 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 const app = express()
-app.use(bodyParser.json())
+app.use(bodyParser.raw({ type: '*/*' }))
 const freeclimbSDK = require('@freeclimb/sdk')
 const port = process.env.PORT || 80
 const signingSecret = process.env.SIGNING_SECRET
@@ -15,8 +15,7 @@ const freeclimb = freeclimbSDK(accountId, authToken)
 app.post('/incomingCall', (req, res) => {
   // Create Say script to greet caller
   const signatureHeader = req.headers['freeclimb-signature'];
-  const requestBody = JSON.stringify(req.body);
-  freeclimb.utils.verifyRequest(requestBody, signatureHeader, signingSecret);
+  freeclimb.utils.verifyRequest(req.body, signatureHeader, signingSecret);
 
   const hello = freeclimb.percl.say("Hello world!")
 
