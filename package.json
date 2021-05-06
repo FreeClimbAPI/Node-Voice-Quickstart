@@ -2,7 +2,7 @@
   "name": "javascript-getting-started",
   "version": "1.0.0",
   "dependencies": {
-    "@freeclimb/sdk": "../persephony/sdks/javascript-sdk/freeclimb-sdk-2.0.0.tgz",
+    "@freeclimb/sdk": "^2.0.0",
     "body-parser": "^1.19.0",
     "dotenv": "^8.1.0",
     "express": "^4.17.1"
