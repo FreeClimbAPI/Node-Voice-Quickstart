@@ -2,13 +2,12 @@
 # yarn lockfile v1
 
 
-"@freeclimb/sdk@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@freeclimb/sdk/-/sdk-2.0.0.tgz#d2449810a09f0ae29f7d40d94415eb61aa985923"
-  integrity sha512-tRNQfddJLy1z33Tu2769n4trTqcxMOwlz6YOgknAF0LG9M4ARThDggC4uj3iKwGPRl3AFs1LGdV/ZkndAfrR3Q==
+"@freeclimb/sdk@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@freeclimb/sdk/-/sdk-2.0.1.tgz#983ac7186020fb7f0f993f93b8a8b1f776bcd188"
+  integrity sha512-nK1go533t4HL26W+gzGZZTRRjs12GgpkfXLyfHXQJSMfP6O3f9f3n2TfwTFCEmPCDAR9dL5+yrBP6yF+n28MAA==
   dependencies:
     lodash.assign "^4.2.0"
-    moment "^2.29.1"
     node-fetch "^2.6.0"
     qs "^6.10.1"
 
@@ -283,11 +282,6 @@ mime@1.6.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/mime/-/mime-1.6.0.tgz#32cd9e5c64553bd58d19a568af452acff04981b1"
   integrity sha512-x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg==
-
-moment@^2.29.1:
-  version "2.29.1"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
-  integrity sha512-kHmoybcPV8Sqy59DwNDY3Jefr64lK/by/da0ViFcuA4DH0vQg5Q6Ze5VimxkfQNSC+Mls/Kx53s7TjP1RhFEDQ==
 
 ms@2.0.0:
   version "2.0.0"
