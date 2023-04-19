@@ -1,6 +1,9 @@
 {
-  "name": "javascript-getting-started",
+  "name": "node-voice-quickstart",
   "version": "1.0.0",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "@freeclimb/sdk": "^3.1.1",
     "body-parser": "^1.20.1",
