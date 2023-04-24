@@ -9,7 +9,7 @@ Specifically, the project will:
 
 ## Tutorial
 
-We offer a [{Language} Voice Quickstart Tutorial]({link to language-specific quickstart}) for more detailed set-up instructions and explanation of how FreeClimb works.
+We offer a [Node.js Voice Quickstart Tutorial](https://docs.freeclimb.com/docs/nodejs-voice-calling-quickstart) for more detailed set-up instructions and explanation of how FreeClimb works.
 
 ## Requirements
 
