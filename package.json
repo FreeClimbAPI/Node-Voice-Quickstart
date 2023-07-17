@@ -5,7 +5,7 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "@freeclimb/sdk": "^3.1.1",
+    "@freeclimb/sdk": "^3.4.0",
     "body-parser": "^1.20.1",
     "dotenv": "^16.0.3",
     "express": "^4.18.2"
