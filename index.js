@@ -11,7 +11,7 @@ const port = process.env.PORT ?? 3000
 app.post("/incomingCall", (req, res) => {
   // Create Say script to greet caller
   const script = new PerclScript({
-    commands: [new Say({ text: "Hello World! " })],
+    commands: [new Say({ text: "Hello, World! " })],
   });
 
   // Add greeting to PerCL script and append to response
@@ -22,7 +22,7 @@ app.post("/incomingCall", (req, res) => {
 // View your JSON PerCl HTTP Response in the browser
 app.get("/incomingCall", (req, res) => {
   const script = new PerclScript({
-    commands: [new Say({ text: "Hello World! " })],
+    commands: [new Say({ text: "Hello, World! " })],
   });
 
   res.status(200).json(script.build());
